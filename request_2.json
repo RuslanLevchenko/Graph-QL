@@ -1,0 +1,37 @@
+https://api.spacex.land/graphql/
+
+{
+  rockets(limit: 5) {
+    company
+    name
+    type
+  }
+}
+
+
+{
+  "data": {
+    "rockets": [
+      {
+        "company": "SpaceX",
+        "name": "Falcon 1",
+        "type": "rocket"
+      },
+      {
+        "company": "SpaceX",
+        "name": "Falcon 9",
+        "type": "rocket"
+      },
+      {
+        "company": "SpaceX",
+        "name": "Falcon Heavy",
+        "type": "rocket"
+      },
+      {
+        "company": "SpaceX",
+        "name": "Starship",
+        "type": "rocket"
+      }
+    ]
+  }
+}
